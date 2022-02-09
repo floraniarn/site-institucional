@@ -26,6 +26,16 @@
                   <img class="img-slide" src="../assets/slide02.jpg" />
                 </div>
               </v-carousel-item>
+              <v-carousel-item eager>
+                <div class="d-flex justify-center container-slide">
+                  <img class="img-slide" src="../assets/slide03.jpg" />
+                </div>
+              </v-carousel-item>
+              <v-carousel-item eager>
+                <div class="d-flex justify-center container-slide">
+                  <img class="img-slide" src="../assets/slide04.jpg" />
+                </div>
+              </v-carousel-item>
             </v-carousel>
           </v-col>
           <v-col cols="12" md="3" sm="12">
