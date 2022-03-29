@@ -42,7 +42,8 @@
                 ></iframe>
               </v-col>
               <v-col cols="12">
-                <a href="https://florania.rn.gov.br/Concorrência_001-2022.pdf"
+                <a
+                  href="https://florania.rn.gov.br/Concorrência_001-2022.pdf"
                   ><v-btn block color="primary">Visualizar Edital</v-btn></a
                 >
               </v-col>
@@ -208,7 +209,6 @@
 
 <script>
 import Card from "@/components/Card.vue";
-import pdf from "../static/Concorrência_001-2022.pdf";
 export default {
   name: "Home",
   components: {
@@ -216,7 +216,6 @@ export default {
   },
   data() {
     return {
-      pdf,
       ps: true,
       acesso_rapido: [
         {
