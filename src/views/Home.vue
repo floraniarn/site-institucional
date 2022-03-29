@@ -1,5 +1,63 @@
 <template>
   <div>
+    <!-- Concorrencia Modal -->
+    <div>
+      <v-dialog v-model="ps">
+        <v-card>
+          <v-card-title class="pt-0 pb-0">
+            <v-divider class="primary" />
+            <img
+              src="../assets/brasao_pmf_colorido_vertical.svg"
+              width="110px"
+              height="110px"
+            />
+            <v-divider class="primary" />
+          </v-card-title>
+          <v-card-text class="text-center">
+            <v-row>
+              <v-col cols="12">
+                <h3 class="text-center primary--text">
+                  CONCORRÊNCIA EDITAL N° 001/2022 – PMF
+                </h3>
+              </v-col>
+              <v-col cols="12">
+                <p class="text-center primary--text">
+                  CONCESSÃO ONEROSA DE USO DE ÁREA DESTINADA A EXPLORAÇÃO DE
+                  QUIOSQUES PARA A VENDA DE BEBIDAS, ALIMENTOS E DERIVADOS NO
+                  PARQUE DA CIDADE - FLORÂNIA/RN
+                </p>
+              </v-col>
+              <v-col cols="12">
+                <h3 class="text-center primary--text">VÍDEO EXPLICATIVO</h3>
+              </v-col>
+              <v-col cols="12">
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/G0QA4bnomTQ?autoplay=1"
+                  title="Vídeo Explicativo"
+                  frameborder="0"
+                  allow="picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </v-col>
+              <v-col cols="12">
+                <a
+                  href="https://florania.rn.gov.br/Concorrência_001-2022.pdf"
+                  ><v-btn block color="primary">Visualizar Edital</v-btn></a
+                >
+              </v-col>
+            </v-row>
+          </v-card-text>
+          <v-divider></v-divider>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="ps = false"> FECHAR </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+    </div>
+    <!-- Fim Concorrencia Modal -->
     <v-card tile elevation="0">
       <v-card-text>
         <v-row>
@@ -158,6 +216,7 @@ export default {
   },
   data() {
     return {
+      ps: true,
       acesso_rapido: [
         {
           name: "CONTRACHEQUE",
