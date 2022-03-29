@@ -43,7 +43,7 @@
               </v-col>
               <v-col cols="12">
                 <a
-                  href="https://florania.rn.gov.br/Concorrência_001-2022.pdf"
+                  href="https://drive.google.com/file/d/1UIh9QytNjyvvIisD89dROJop8T3Zhj5U/view?usp=sharing"
                   ><v-btn block color="primary">Visualizar Edital</v-btn></a
                 >
               </v-col>
