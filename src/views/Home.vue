@@ -191,17 +191,15 @@
       </v-card-text>
       <v-card-text>
         <v-row class="px-10">
-          <a
-            href="https://drive.google.com/file/d/12is7fvbTWHJlqYoQ0imMES-Vk0zQb3Hw/view?usp=sharing"
-          >
-            <v-card min-height="150" max-height="150" elevation="0">
-              <v-card-text class="text-center">
-                <v-icon size="60">mdi-file-document-outline</v-icon>
-                <v-spacer></v-spacer>
-                <h1>AUXÍLIO TRANSPORTE</h1>
-              </v-card-text>
-            </v-card>
-          </a>
+          <Card
+            key="editais"
+            title="AUXÍLIO TRANSPORTE"
+            icon="file-document-outline"
+            link="https://drive.google.com/file/d/12is7fvbTWHJlqYoQ0imMES-Vk0zQb3Hw/view?usp=sharing"
+            :lg="3"
+            :md="3"
+            :sm="6"
+          />
         </v-row>
       </v-card-text>
     </v-card>
