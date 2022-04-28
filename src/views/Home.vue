@@ -187,6 +187,26 @@
     </v-card>
     <v-card tile elevation="0" class="mt-15">
       <v-card-text class="text-center titulo">
+        <h1 class="pb-3">Editais</h1>
+      </v-card-text>
+      <v-card-text>
+        <v-row class="px-10">
+          <a
+            href="https://drive.google.com/file/d/12is7fvbTWHJlqYoQ0imMES-Vk0zQb3Hw/view?usp=sharing"
+          >
+            <v-card min-height="150" max-height="150" elevation="0">
+              <v-card-text class="text-center">
+                <v-icon size="60">mdi-file-document-outline</v-icon>
+                <v-spacer></v-spacer>
+                <h1>AUXÍLIO TRANSPORTE</h1>
+              </v-card-text>
+            </v-card>
+          </a>
+        </v-row>
+      </v-card-text>
+    </v-card>
+    <v-card tile elevation="0" class="mt-15">
+      <v-card-text class="text-center titulo">
         <h1 class="pb-3">Acesso Rápido</h1>
       </v-card-text>
       <v-card-text>
