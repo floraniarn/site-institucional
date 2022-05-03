@@ -192,10 +192,19 @@
       <v-card-text>
         <v-row class="px-10">
           <Card
-            key="editais"
+            key="aux-transporte"
             title="AUXÍLIO TRANSPORTE"
             icon="file-document-outline"
             link="https://drive.google.com/file/d/12is7fvbTWHJlqYoQ0imMES-Vk0zQb3Hw/view?usp=sharing"
+            :lg="3"
+            :md="3"
+            :sm="6"
+          />
+          <Card
+            key="ref-prontas"
+            title="COTAÇÃO DE PREÇO REFEIÇÕES PRONTAS"
+            icon="file-document-outline"
+            link="https://drive.google.com/file/d/1nxG4VQJqUbvm4T3bW1VdDNGfqo0BFpOc/view?usp=sharing"
             :lg="3"
             :md="3"
             :sm="6"
