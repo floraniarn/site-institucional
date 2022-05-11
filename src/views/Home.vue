@@ -200,7 +200,7 @@
             :md="3"
             :sm="6"
           />
-          <Card
+          <!-- <Card
             key="ref-prontas"
             title="COTAÇÃO DE PREÇO REFEIÇÕES PRONTAS"
             icon="file-document-outline"
@@ -208,7 +208,7 @@
             :lg="3"
             :md="3"
             :sm="6"
-          />
+          /> -->
         </v-row>
       </v-card-text>
     </v-card>
