@@ -185,7 +185,7 @@
         </v-row>
       </v-card-text>
     </v-card>
-    <v-card tile elevation="0" class="mt-15">
+    <!-- <v-card tile elevation="0" class="mt-15">
       <v-card-text class="text-center titulo">
         <h1 class="pb-3">Editais</h1>
       </v-card-text>
@@ -200,18 +200,9 @@
             :md="3"
             :sm="6"
           />
-          <!-- <Card
-            key="ref-prontas"
-            title="COTAÇÃO DE PREÇO REFEIÇÕES PRONTAS"
-            icon="file-document-outline"
-            link="https://drive.google.com/file/d/1nxG4VQJqUbvm4T3bW1VdDNGfqo0BFpOc/view?usp=sharing"
-            :lg="3"
-            :md="3"
-            :sm="6"
-          /> -->
         </v-row>
       </v-card-text>
-    </v-card>
+    </v-card> -->
     <v-card tile elevation="0" class="mt-15">
       <v-card-text class="text-center titulo">
         <h1 class="pb-3">Acesso Rápido</h1>

@@ -27,6 +27,9 @@
                   <router-link :to="'/municipio'">O Município</router-link>
                 </li>
                 <li>
+                  <router-link :to="'/contatos'">Contatos</router-link>
+                </li>
+                <li>
                   <a href="http://transparencia.florania.rn.gov.br:81/"
                     >Transparência</a
                   >
