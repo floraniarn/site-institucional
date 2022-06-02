@@ -267,6 +267,16 @@ export default {
           link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultaProcesso.aspx",
         },
         {
+          name: "EDITAIS",
+          icon: "file-document-multiple",
+          link: "https://drive.google.com/drive/folders/1NTztiEsK6DiHjUHAsU8Zf6yePn5dB0sv?usp=sharing",
+        },
+        {
+          name: "ATAS DE REGISTRO DE PREÇO",
+          icon: "book-open-outline",
+          link: "https://drive.google.com/drive/folders/1NVQ0Uyxtzrr1qnYZdHrgqfTjjaZ9YKgE?usp=sharing",
+        },
+        {
           name: "FUNDOS MUNICIPAIS",
           icon: "piggy-bank-outline",
           link: "http://transparencia.florania.rn.gov.br:81/Cidadao/FundosMunicipais.aspx",

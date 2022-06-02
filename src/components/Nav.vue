@@ -115,6 +115,16 @@
             </v-col>
             <v-col cols="12">
               <v-btn
+                :to="'/contatos'"
+                @click.stop="menu = !menu"
+                color="primary"
+                outlined
+                block
+                >CONTATOS</v-btn
+              >
+            </v-col>
+            <v-col cols="12">
+              <v-btn
                 color="primary"
                 link
                 href="http://transparencia.florania.rn.gov.br:81/"
