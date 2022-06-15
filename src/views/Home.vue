@@ -23,9 +23,12 @@
               <v-col cols="12">
                 <p class="text-center primary--text">
                   A PREFEITURA MUNICIPAL DE FLORÂNIA, REALIZARÁ NOS DIAS 26 E 27
-                  DE JUNHO DE 2022, O I FESTIVAL DE QUADRILHAS JUNINAS MATUTAS E
-                  ESTILIZADA DE FLORÂNIA, COMO PARTE DA PROGRAMAÇÃO ALUSIVA AOS
-                  FESTEJOS JUNINOS.
+                  DE JUNHO DE 2022, O
+                  <span class="font-weight-bold">
+                    I FESTIVAL DE QUADRILHAS JUNINAS MATUTAS E ESTILIZADAS DE
+                    FLORÂNIA
+                  </span>
+                  , COMO PARTE DA PROGRAMAÇÃO ALUSIVA AOS FESTEJOS JUNINOS.
                 </p>
                 <p class="text-center primary--text font-weight-medium">
                   SÃO PEDRO DA GENTE ALEGRIA QUE NÃO TEM FIM!
