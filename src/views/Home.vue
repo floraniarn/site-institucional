@@ -2,7 +2,7 @@
   <div>
     <!-- Concorrencia Modal -->
     <div>
-      <v-dialog v-model="ps">
+      <v-dialog v-model="ps" width="800">
         <v-card>
           <v-card-title class="pt-0 pb-0">
             <v-divider class="primary" />
@@ -17,36 +17,38 @@
             <v-row>
               <v-col cols="12">
                 <h3 class="text-center primary--text">
-                  CONCORRÊNCIA EDITAL N° 001/2022 – PMF
+                  CONCURSO DE QUADRILHAS
                 </h3>
               </v-col>
               <v-col cols="12">
                 <p class="text-center primary--text">
-                  CONCESSÃO ONEROSA DE USO DE ÁREA DESTINADA A EXPLORAÇÃO DE
-                  QUIOSQUES PARA A VENDA DE BEBIDAS, ALIMENTOS E DERIVADOS NO
-                  PARQUE DA CIDADE - FLORÂNIA/RN
+                  A PREFEITURA MUNICIPAL DE FLORÂNIA, REALIZARÁ NOS DIAS 26 E 27
+                  DE JUNHO DE 2022, O I FESTIVAL DE QUADRILHAS JUNINAS MATUTAS E
+                  ESTILIZADA DE FLORÂNIA, COMO PARTE DA PROGRAMAÇÃO ALUSIVA AOS
+                  FESTEJOS JUNINOS.
+                </p>
+                <p class="text-center primary--text font-weight-medium">
+                  SÃO PEDRO DA GENTE ALEGRIA QUE NÃO TEM FIM!
                 </p>
               </v-col>
-              <v-col cols="12">
-                <h3 class="text-center primary--text">VÍDEO EXPLICATIVO</h3>
-              </v-col>
-              <v-col cols="12">
-                <iframe
-                  width="100%"
-                  height="450"
-                  src="https://www.youtube.com/embed/G0QA4bnomTQ?autoplay=1"
-                  title="Vídeo Explicativo"
-                  frameborder="0"
-                  allow="picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </v-col>
-              <v-col cols="12">
-                <a
-                  href="https://drive.google.com/file/d/1UIh9QytNjyvvIisD89dROJop8T3Zhj5U/view?usp=sharing"
-                  ><v-btn block color="primary">Visualizar Edital</v-btn></a
-                >
-              </v-col>
+              <Card
+                key="matuta"
+                title="CONCURSO TRADICIONAL"
+                icon="file-document-multiple"
+                link="https://drive.google.com/file/d/14jpJpdrLWVqVIMFmbAZlWB1FXyhE7ZIn/view?usp=sharing"
+                :lg="6"
+                :md="6"
+                :sm="6"
+              />
+              <Card
+                key="estilizada"
+                title="CONCURSO ESTILIZADA"
+                icon="file-document-multiple"
+                link="https://drive.google.com/file/d/1EZeGmpavu4pvOPGkLaNgfSpXWCzNMOnY/view?usp=sharing"
+                :lg="6"
+                :md="6"
+                :sm="6"
+              />
             </v-row>
           </v-card-text>
           <v-divider></v-divider>
@@ -234,7 +236,7 @@ export default {
   },
   data() {
     return {
-      ps: false,
+      ps: true,
       acesso_rapido: [
         {
           name: "CONTRACHEQUE",
