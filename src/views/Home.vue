@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Concorrencia Modal -->
-    <div>
+    <!-- <div>
       <v-dialog v-model="ps" width="800">
         <v-card>
           <v-card-title class="pt-0 pb-0">
@@ -61,7 +61,7 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
-    </div>
+    </div> -->
     <!-- Fim Concorrencia Modal -->
     <v-card tile elevation="0">
       <v-card-text>
@@ -104,9 +104,7 @@
           <v-col cols="12" md="3" sm="12">
             <v-row justify="space-between" align-content="space-between">
               <v-col cols="12">
-                <a
-                  href="https://drive.google.com/drive/folders/1N9qmSLSAqUefn4z0OaDRAwuRS2USvtGo?usp=sharing"
-                >
+                <a href="https://forms.gle/kE6GPMYh7LvH7NcCA">
                   <v-card color="#009faf" class="ma-1">
                     <v-card-text class="text-center">
                       <v-row>
@@ -119,11 +117,11 @@
                           >
                             <v-card-text class="text-center">
                               <v-icon class="ma-2 accent--text" x-large
-                                >mdi-currency-usd
+                                >mdi-human-dolly
                               </v-icon>
                               <v-spacer></v-spacer>
                               <h3 class="ma-0 accent--text">
-                                RELATÓRIOS DE GESTÃO
+                                CADASTRO DE FORNECEDORES
                               </h3>
                             </v-card-text>
                           </v-card>
@@ -338,6 +336,11 @@ export default {
           name: "LEI ORGÂNICA MUNICIPAL",
           icon: "bank",
           link: "https://drive.google.com/drive/folders/1_FNzPJiGJwYI3hxIQ7WZAy0xeEz2tvLz?usp=sharing",
+        },
+        {
+          name: "RELATÓRIOS DE GESTÃO",
+          icon: "currency-usd",
+          link: "https://drive.google.com/drive/folders/1N9qmSLSAqUefn4z0OaDRAwuRS2USvtGo?usp=sharing",
         },
       ],
     };
