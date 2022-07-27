@@ -133,7 +133,7 @@
               </v-col>
               <v-col cols="12">
                 <a
-                  href="https://drive.google.com/file/d/10Q24JY59N5p7rV47uSDHQ5xzsk3M5Kng/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1VdH6-LXmL08vg8fB5pLw_NRjgylidpd_/view?usp=sharing"
                 >
                   <v-card color="error" class="ma-1">
                     <v-card-text class="text-center">
