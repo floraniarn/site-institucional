@@ -17,7 +17,12 @@
                 <v-card-text class="text-justify pa-0">
                   <v-row>
                     <v-col cols="12">
-                      <h4 class="primary--text">{{ item.endereco }}</h4>
+                      <h4 class="primary--text">
+                        {{ item.endereco }} <br />
+                        Atendimento das 7h às 13h
+                        <br />
+                        Responsável: {{ item.responsavel }}
+                      </h4>
                     </v-col>
                     <v-col cols="12" class="pa-0" v-if="item.whatsapp">
                       <a
@@ -83,6 +88,8 @@ export default {
           email: "florania.pmf@gmail.com",
           linkEmail: "mailto:florania.pmf@gmail.com",
           endereco: "Rua Teonia Amaral 290 - Centro",
+          horario: "",
+          responsavel: "José da Silva Júnior",
         },
         {
           titulo: "Sec. de Administração",
@@ -92,6 +99,8 @@ export default {
           email: "semaplan@florania.rn.gov.br",
           linkEmail: "mailto:semaplan@florania.rn.gov.br",
           endereco: "Rua Teonia Amaral 290 - Centro (Sede da Prefeitura)",
+          horario: "",
+          responsavel: "Laedson Medeiros",
         },
         {
           titulo: "Setor Juridico",
@@ -101,6 +110,8 @@ export default {
           email: "florania.pmf@gmail.com",
           linkEmail: "mailto:florania.pmf@gmail.com",
           endereco: "Rua Teonia Amaral 290 - Centro (Sede da Prefeitura)",
+          horario: "",
+          responsavel: "Fábia Delgado",
         },
         {
           titulo: "Setor Tributação",
@@ -110,6 +121,9 @@ export default {
           email: "tributacaoflorania@gmail.com",
           linkEmail: "mailto:tributacaoflorania@gmail.com",
           endereco: "Rua Teonia Amaral 290 - Centro (Sede da Prefeitura)",
+          horario: "",
+          responsavel:
+            "Pedro Henrique Paulino Pereira Cruz (Setor Econômico) e Maria Lúcia de Oliveira (Setor Imobiliário)",
         },
         {
           titulo: "Setor Licitação",
@@ -119,6 +133,8 @@ export default {
           email: "licitacao@florania.rn.gov.br ",
           linkEmail: "mailto:licitacao@florania.rn.gov.br",
           endereco: "Rua Teonia Amaral 290 - Centro (Sede da Prefeitura)",
+          horario: "",
+          responsavel: "Alex Silva de Azevedo",
         },
         {
           titulo: "Sec. de Saúde",
@@ -128,6 +144,8 @@ export default {
           email: "sms@florania.rn.gov.br",
           linkEmail: "mailto:sms@florania.rn.gov.br",
           endereco: "Rua Barão do Rio Branco 28 - Centro (Feira Coberta)",
+          horario: "",
+          responsavel: "Sâmara Asley de Medeiros Laurentino",
         },
         {
           titulo: "Sec. de Finanças",
@@ -137,6 +155,8 @@ export default {
           linkEmail: "mailto:financas@florania.rn.gov.br",
           email: "financas@florania.rn.gov.br",
           endereco: "Rua Teonia Amaral 290 - Centro (Sede da Prefeitura)",
+          horario: "",
+          responsavel: "Miqueias de Araújo Souza",
         },
         {
           titulo: "Sec. de Assistência Social",
@@ -146,6 +166,8 @@ export default {
           email: "semas@florania.rn.gov.br",
           linkEmail: "mailto:semas@florania.rn.gov.br",
           endereco: "Rua Porfessor Edil Medeiros 5 - Flores",
+          horario: "",
+          responsavel: "Tásia Assunção",
         },
         {
           titulo: "Sec. de Educação, Cultura e Desporto",
@@ -155,6 +177,8 @@ export default {
           email: "semecd@florania.rn.gov.br",
           linkEmail: "mailto:semecd@florania.rn.gov.br ",
           endereco: "Rua Barão do Rio Branco 28 - Centro (Feira Coberta)",
+          horario: "",
+          responsavel: "Suely Cardoso",
         },
         {
           titulo: "Sec. de Obras",
@@ -164,6 +188,8 @@ export default {
           email: "semob.florania@gmail.com",
           linkEmail: "mailto:semob.florania@gmail.com",
           endereco: "Rua Tereza Adelaide S/N",
+          horario: "",
+          responsavel: "Roberto Gouveia",
         },
         {
           titulo: "Cad. Único",
@@ -173,6 +199,8 @@ export default {
           email: "smas@florania.rn.gov.br",
           linkEmail: "mailto:smas@florania.rn.gov.br",
           endereco: "Rua Porfessor Edil Medeiros S/N - Flores",
+          horario: "",
+          responsavel: "Damião Silva Souza",
         },
         {
           titulo: "Sec. de Agricultura",
@@ -183,7 +211,21 @@ export default {
           email: "agriculturaflorania@yahoo.com.br",
           linkEmail: "mailto:agriculturaflorania@yahoo.com.br",
           endereco: "Rua Francisco Cícero 8 - Centro",
+          horario: "",
+          responsavel: "Carlos de Medeiros Costa",
         },
+        // {
+        //   titulo: "Sec. de Transporte",
+        //   linkWhats: "https://api.whatsapp.com/send?phone=+5584999292270",
+        //   whatsapp: "(84) 9 9929-2270",
+        //   extra: "(84) 9 9903-0150",
+        //   isWhatsapp: true,
+        //   email: "agriculturaflorania@yahoo.com.br",
+        //   linkEmail: "mailto:agriculturaflorania@yahoo.com.br",
+        //   endereco: "Rua Francisco Cícero 8 - Centro",
+        //   horario: "",
+        //   responsavel: "Manoel Pinto Neto",
+        // },
       ],
     };
   },
