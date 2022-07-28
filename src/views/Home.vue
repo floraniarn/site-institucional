@@ -174,7 +174,7 @@
                                 >mdi-scale-balance
                               </v-icon>
                               <v-spacer></v-spacer>
-                              <h3 class="ma-0 white--text">LEIS MUNICIPAIS</h3>
+                              <h3 class="ma-0 accent--text">LEIS MUNICIPAIS</h3>
                             </v-card-text>
                           </v-card>
                         </v-col>
@@ -336,6 +336,16 @@ export default {
           name: "LEI ORGÂNICA MUNICIPAL",
           icon: "bank",
           link: "https://drive.google.com/drive/folders/1_FNzPJiGJwYI3hxIQ7WZAy0xeEz2tvLz?usp=sharing",
+        },
+        {
+          name: "PLANO MUNICIPAL DE EDUCAÇÃO",
+          icon: "book-education",
+          link: "https://drive.google.com/file/d/13wsCnA6BCOKtPDWfNu0magp7--GBsvcZ/view?usp=sharing",
+        },
+        {
+          name: "PLANO MUNICIPAL DE SAÚDE",
+          icon: "bottle-tonic-plus",
+          link: "https://drive.google.com/file/d/19hCIHmA-HDG0riIv9SYJxOhfExBowaqS/view?usp=sharing",
         },
         {
           name: "RELATÓRIOS DE GESTÃO",
