@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Concorrencia Modal -->
-    <!-- <div>
+    <div>
       <v-dialog v-model="ps" width="800">
         <v-card>
           <v-card-title class="pt-0 pb-0">
@@ -17,40 +17,31 @@
             <v-row>
               <v-col cols="12">
                 <h3 class="text-center primary--text">
-                  CONCURSO DE QUADRILHAS
+                  SOLICITAÇÃO DE COTAÇÃO DE PREÇOS
                 </h3>
               </v-col>
               <v-col cols="12">
-                <p class="text-center primary--text">
-                  A PREFEITURA MUNICIPAL DE FLORÂNIA, REALIZARÁ NOS DIAS 26 E 27
-                  DE JUNHO DE 2022, O
-                  <span class="font-weight-bold">
-                    I FESTIVAL DE QUADRILHAS JUNINAS MATUTAS E ESTILIZADAS DE
-                    FLORÂNIA
-                  </span>
-                  , COMO PARTE DA PROGRAMAÇÃO ALUSIVA AOS FESTEJOS JUNINOS.
+                <p class="text-justify primary--text">
+                  A Prefeitura Municipal de Florânia/RN, torna público para
+                  conhecimentos dos interessados que está recebendo propostas de
+                  preços, cujo objeto é registro de preços para futura e
+                  eventual:
                 </p>
                 <p class="text-center primary--text font-weight-medium">
-                  SÃO PEDRO DA GENTE ALEGRIA QUE NÃO TEM FIM!
+                  <span class="font-weight-bold">
+                    CONTRATAÇÃO DE PESSOA JURÍDICA PARA AQUISIÇÃO DE GENEROS
+                    ALIMENTICIOS - TIPO COFFEE BREAK
+                  </span>
                 </p>
               </v-col>
               <Card
-                key="matuta"
-                title="CONCURSO TRADICIONAL"
+                key="coffee"
+                title="SOLICITAÇÃO DE COTAÇÃO DE PREÇOS"
                 icon="file-document-multiple"
-                link="https://drive.google.com/file/d/14jpJpdrLWVqVIMFmbAZlWB1FXyhE7ZIn/view?usp=sharing"
-                :lg="6"
-                :md="6"
-                :sm="6"
-              />
-              <Card
-                key="estilizada"
-                title="CONCURSO ESTILIZADA"
-                icon="file-document-multiple"
-                link="https://drive.google.com/file/d/1EZeGmpavu4pvOPGkLaNgfSpXWCzNMOnY/view?usp=sharing"
-                :lg="6"
-                :md="6"
-                :sm="6"
+                link="https://drive.google.com/file/d/1XVjQGomAgzO_3KXW4cWwCox48W6B1sDt/view?usp=sharing"
+                :lg="12"
+                :md="12"
+                :sm="12"
               />
             </v-row>
           </v-card-text>
@@ -61,7 +52,7 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
-    </div> -->
+    </div>
     <!-- Fim Concorrencia Modal -->
     <v-card tile elevation="0">
       <v-card-text>
@@ -237,7 +228,7 @@ export default {
   },
   data() {
     return {
-      ps: false,
+      ps: true,
       acesso_rapido: [
         {
           name: "CONTRACHEQUE",
