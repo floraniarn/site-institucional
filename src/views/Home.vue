@@ -233,7 +233,7 @@ export default {
         {
           name: "CONTRACHEQUE",
           icon: "card-account-details-outline",
-          link: "http://transparencia.florania.rn.gov.br:81/Usuario/Login.aspx",
+          link: "http://pessoal.florania.rn.gov.br:81/Usuario/Login.aspx",
         },
         {
           name: "E-SUS",
@@ -243,7 +243,7 @@ export default {
         {
           name: "EDUCÁGIL",
           icon: "school-outline",
-          link: "http://201.73.145.55:8065/login.aspx?page=/",
+          link: "http://educagil.florania.rn.gov.br:8065/login.aspx?page=/",
         },
         {
           name: "CERTIDÃO NEGATIVA",
@@ -258,7 +258,7 @@ export default {
         {
           name: "PROCESSOS",
           icon: "file-document-edit-outline",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultaProcesso.aspx",
+          link: "http://pessoal.florania.rn.gov.br:81/Cidadao/ConsultaProcesso.aspx",
         },
         {
           name: "EDITAIS",
@@ -273,45 +273,45 @@ export default {
         {
           name: "FUNDOS MUNICIPAIS",
           icon: "piggy-bank-outline",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/FundosMunicipais.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/FundosMunicipais.aspx",
         },
         {
           name: "RECEITAS",
           icon: "cash-plus",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultasReceitas.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultasReceitas.aspx",
         },
         {
           name: "DESPESAS",
           icon: "cash-minus",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultaDiarioDespesas.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultaDiarioDespesas.aspx",
         },
         {
           name: "COVID-19",
           icon: "virus",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultasCovid.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultasCovid.aspx",
         },
 
         {
           name: "EMPENHOS",
           icon: "file-alert-outline",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultaEmpenhos.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultaEmpenhos.aspx",
         },
 
         {
           name: "SERVIDORES",
           icon: "account",
-          link: "http://transparencia.florania.rn.gov.br:81/Cidadao/ConsultaServidores.aspx",
+          link: "http://pessoal.florania.rn.gov.br:81/Cidadao/ConsultaServidores.aspx",
         },
 
         {
           name: "CONTRATOS",
           icon: "file-document-edit",
-          link: "http://contratos.florania.rn.gov.br:8120/Cidadao/ConsultaContratos.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultaContratos.aspx",
         },
         {
           name: "LICITAÇÕES",
           icon: "gavel",
-          link: "http://licitacao.florania.rn.gov.br:8120/Cidadao/ConsultaLicitacoes.aspx",
+          link: "http://transparencia.florania.rn.gov.br:8120/Cidadao/ConsultaLicitacoes.aspx",
         },
         {
           name: "LICITAÇÃO TRANSPARENTE",
