@@ -30,9 +30,9 @@
                   <router-link :to="'/contatos'">Contatos</router-link>
                 </li>
                 <li>
-                  <a href="http://transparencia.florania.rn.gov.br:81/"
-                    >Transparência</a
-                  >
+                  <a href="http://transparencia.florania.rn.gov.br:8120/">
+                    Transparência
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -127,7 +127,7 @@
               <v-btn
                 color="primary"
                 link
-                href="http://transparencia.florania.rn.gov.br:81/"
+                href="http://transparencia.florania.rn.gov.br:8120/"
                 @click.stop="menu = !menu"
                 outlined
                 block
@@ -172,7 +172,7 @@ export default {
         },
         {
           titulo: "TRANSPARÊNCIA",
-          rota: "http://transparencia.florania.rn.gov.br:81/",
+          rota: "http://transparencia.florania.rn.gov.br:8120/",
           showDesktop: true,
         },
         {
@@ -182,7 +182,7 @@ export default {
         },
         {
           titulo: "EDUCÁGIL",
-          rota: "http://201.73.145.55:8065/login.aspx?page=/",
+          rota: "http://educagil.florania.rn.gov.br:8065/login.aspx?page=/",
           showDesktop: true,
         },
       ],
