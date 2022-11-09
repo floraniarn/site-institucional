@@ -228,7 +228,7 @@ export default {
   },
   data() {
     return {
-      ps: true,
+      ps: false,
       acesso_rapido: [
         {
           name: "CONTRACHEQUE",
